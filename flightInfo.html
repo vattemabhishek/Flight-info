@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Flight info - Airbus</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+   <h1 class="heading1"><strong> AirBus fleet info</strong></h1>
+    <div id="statement">
+        
+        <p class="first">Here are few of the flights in the xyz airline</p>
+
+    </div>
+    <div id="options" >
+        <ol>
+            <button name="A320" value="A320" onmouseover="mouseOver()" onmouseout="mouseOut()"><a href="Airbus_A320.html" target=" ">AirBus A320</a></button>
+            <button name="A330" value="A330" onmouseover="mouseOver()" onmouseout="mouseOut()"><a href="Airbus_A330.html" target=" ">AirBus A330</a> </button>
+            <button name="A380" value="A380" onmouseover="mouseOver()" onmouseout="mouseOut()"><a href="Airbus_A380.html" target=" ">AirBus A380</a></button>
+        </ol>
+    </div>
+    <script>
+       function mouseOver() {
+        
+       document.getElementsByName("A320")[0].childNodes[0].style.color = 'red';
+               }
+
+        function mouseOut() {
+            document.getElementsByName("A320")[0].childNodes[0].style.color = 'black';
+        }       
+     </script>
+      
+</body>
+
+</html>

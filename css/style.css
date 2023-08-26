@@ -1,0 +1,70 @@
+html{
+    height: 100%;
+   
+}
+
+body {
+    background-color: rgb(122, 174, 214);
+    width: 1000px;
+    text-align: left;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    margin-left: 200px;
+    line-height: 35px;
+    
+    
+}
+ol {
+    font-size: 21px;
+    color:black;
+    
+}
+#options {
+    width: 1000px;
+    
+   margin: 0 auto;
+    
+    font-size: 25px;
+    
+}
+button {
+    padding: 30px 300px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+  
+}
+h1,
+#statement {
+   
+    border-left: 50px;
+    font-size: 30px;
+    background-color: white;
+}
+h1{
+    background-color: rgb(227, 245, 245);
+    font-size: 35px;
+    text-align: center;
+    
+}
+.first{
+    padding: 10px solid;
+}
+.A320{
+    background-image:url(../img/A320.jpg);
+    background-size: cover;
+}
+.A330{
+    background-image:url(../img/A330.jpg);
+    background-size: cover;
+}
+.A380{
+    background-image:url(../img/A380.jpg);
+    background-size: cover;
+}
